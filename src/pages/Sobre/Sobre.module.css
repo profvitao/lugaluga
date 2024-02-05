@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.container img {
+  width: 40vw;
+}
+.blocoa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.blocob {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+.blococ {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.oferta {
+  width: 300px;
+}
+.ofertas {
+  display: flex;
+  justify-content: space-between;
+}

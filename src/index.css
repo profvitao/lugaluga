@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+}
+:root {
+  font-family: "Cousine";
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary: #6c63ff;
+  --secondary: #79b1cb;
+  --red: #ff6584;
+  --soft-white: #bdf4ff;
+  --background: #a6deee;
+  --white: #f1f1f1;
+  --black: #111;
+  --gray: #222222;
+}
+* {
+  text-decoration: none;
+}

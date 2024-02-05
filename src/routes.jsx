@@ -10,7 +10,7 @@ import Acompanhamento from "./pages/Acompanhamento";
 import Atendimento from "./pages/Atendimento";
 function AppRoutes() {
   return (
-    <BrowserRouter basename={"https://github.com/profvitao/lugaluga"}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<PageBase />}>
           <Route path="/index" element={<Home />}></Route>

@@ -59,6 +59,7 @@ function Atendimento() {
     <>
       <div className={styles.container}>
         <h1>Atendimento de Solicitações</h1>
+        <p>Página exclusiva de ADM</p>
         <BasicTable>{rows}</BasicTable>
       </div>
     </>

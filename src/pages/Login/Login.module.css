@@ -9,6 +9,14 @@ img {
   max-width: 500px;
   padding: 50px;
 }
+@media screen and (max-width: 1029px) {
+  img {
+    width: 200px;
+  }
+  .container {
+    flex-direction: column;
+  }
+}
 .blocob {
   display: flex;
   flex-direction: column;

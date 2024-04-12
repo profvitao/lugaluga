@@ -158,7 +158,13 @@ function Acompanhamento() {
                     <TableCell align="center">
                       <Chip
                         sx={{ width: 100 }}
-                        color={row.color}
+                        color={
+                          row.status == "Aprovado"
+                            ? "success"
+                            : row.status == "Reprovado"
+                            ? "error"
+                            : "warning"
+                        }
                         label={row.status}
                       ></Chip>
                     </TableCell>

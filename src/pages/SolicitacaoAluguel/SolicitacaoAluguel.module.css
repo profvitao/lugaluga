@@ -5,3 +5,14 @@
   flex-direction: column;
   padding-inline: 15%;
 }
+
+.tabela {
+  min-height: 70vh;
+}
+.nenhum {
+  font-size: 22px;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

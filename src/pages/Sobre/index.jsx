@@ -6,6 +6,7 @@ function Sobre() {
       <div className={styles.container}>
         <div className={styles.blocoa}>
           <h1>Bem vindo a LUGA-LUGA</h1>
+          <BasicDatePicker label="Basic date picker" />
 
           <img src={welcome} alt="" srcset="" />
         </div>
